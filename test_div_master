@@ -1,0 +1,22 @@
+# from divisor_master import*
+def prime_check(n):
+    p = 2
+    check = False
+    if n<=3:
+        check = True
+    else:
+        while p*p<=n:
+            if n%p!=0:
+                p+=1
+            else:
+                break
+                check = False
+        else:
+            check = True
+    return check
+
+def test_prime_check1()
+    assert test_prime_check(2) == True
+
+def test_prime_check2()
+    assert test_prime_check(4) == False
