@@ -16,7 +16,7 @@ def prime_check(n):
         else:
             check = True
     return check
-print(prime_check(525))
+print(prime_check(1000))
 
 # вывод списк постых чисел в интервале от 1 до n
 def prime_list(n):
@@ -44,7 +44,7 @@ def divisor_master(n):
     return divisor_list
 if __name__ == '__main__':
     print('Вывести весь список простых делителей числа (каноническое разложение числа')
-    print(divisor_master((525)))
+    print(divisor_master((1000)))
 
 # вывести самый большой простой делитель числа
 def divisor_max(n):
@@ -54,7 +54,7 @@ def divisor_max(n):
     return max
 if __name__ == '__main__':
     print('самый большой простой делитель числа')
-    print(divisor_max((525)))
+    print(divisor_max((1000)))
 
 # вывести все делители числа.
 def divisor_list_full(n):
@@ -69,7 +69,7 @@ def divisor_list_full(n):
     return divisor_list
 if __name__ == '__main__':
     print('все делители числа')
-    print(divisor_list_full((540)))
+    print(divisor_list_full((1000)))
 
 # вывод максимального делителя числа
 def divisor_full_max(n):
@@ -79,7 +79,7 @@ def divisor_full_max(n):
     return max
 if __name__ == '__main__':
     print('вывод максимального делителя числа')
-    print(divisor_full_max((540)))
+    print(divisor_full_max((1000)))
 
 
 
